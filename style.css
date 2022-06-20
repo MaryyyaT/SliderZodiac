@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.slider {
+    max-width: 100rem;
+    height: 30rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s;
+}
+.slider__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background: rgb(171, 229, 245);
+    box-shadow: white 1px 2px 22px;
+    text-shadow: white 1px 2px 1px;
+    font-family: inherit;
+    color: rgb(43, 205, 226);
+    border-radius: 100px;
+    height: 5.5rem;
+    width: 5.5rem;
+    font-size: 3.25rem;
+    cursor: pointer;
+}
+.slider__btn--left {
+    left: 340px;
+    transform: translate(-50%, -50%);
+}
+.slider__btn--right {
+    right: 340px;
+    transform: translate(50%, -50%);
+}
+.slider__img{
+    width: 78px;
+    height: 78px;
+    transition: 2s;
+}
