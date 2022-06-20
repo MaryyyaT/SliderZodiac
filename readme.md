@@ -1,1 +1,1 @@
-Made slider (done)
+Made slider https://maryyyat.github.io/SliderZodiac/
